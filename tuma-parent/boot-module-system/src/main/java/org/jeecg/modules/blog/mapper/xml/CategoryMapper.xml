@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.blog.mapper.BlogCategoryMapper">
+
+   <select id="queryCategoryList" resultType="org.jeecg.modules.blog.entity.BlogCategory">
+        select
+            bc.*,
+            (select count(*) from blog_article ba where ba.category_id = bc.id and ba.status = 1) as article_count
+        from
+            blog_category bc
+   </select>
+</mapper>

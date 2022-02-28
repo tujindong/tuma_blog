@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: tuma-system
+  profiles:
+    active: prod

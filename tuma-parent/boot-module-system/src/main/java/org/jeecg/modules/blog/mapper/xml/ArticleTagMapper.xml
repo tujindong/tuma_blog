@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.blog.mapper.ArticleTagMapper">
+
+    <select id="getTagsByArticleId" resultType="org.jeecg.modules.blog.entity.BlogTag">
+        SELECT
+            bt.*
+        FROM
+            blog_article_tag bat
+            LEFT JOIN blog_article ba ON bat.article_id = ba.id
+            LEFT JOIN blog_tag bt ON bat.tag_id = bt.id
+        WHERE ba.id = #{id}
+        AND bt.id IS NOT NULL
+    </select>
+</mapper>

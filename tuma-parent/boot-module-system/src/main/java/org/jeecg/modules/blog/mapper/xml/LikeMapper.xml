@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.blog.mapper.LikeMapper">
+
+    <select id="queryOneByObjIdAndUserId" resultType="org.jeecg.modules.blog.entity.BlogLike">
+        select
+            bl.*
+        from
+            blog_like bl
+        <if test="objId != null and objId != ''">
+            where bl.obj_id = #{objId}
+        </if>
+        <if test="userId != null and userId != ''">
+            and bl.user_id = #{userId}
+        </if>
+    </select>
+</mapper>

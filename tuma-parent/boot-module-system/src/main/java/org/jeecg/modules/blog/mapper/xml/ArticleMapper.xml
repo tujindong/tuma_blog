@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.jeecg.modules.blog.mapper.ArticleMapper">
+
+    <!--获取文章列表并携带标签字段-->
+    <select id="pageListWithTags" parameterType="String" resultType="org.jeecg.modules.blog.entity.BlogArticle">
+        select
+            ba.id, ba.title, ba.intro, ba.comment_count, ba.view_count, ba.like_count, ba.status, ba.create_by, ba.create_time, ba.update_by, ba.update_time,
+            GROUP_CONCAT( bt.NAME ) as tag_names
+        from
+            blog_article_tag bat
+                left join blog_article ba ON bat.article_id = ba.id
+                left join blog_tag bt ON bat.tag_id = bt.id
+        where ba.del_flag = '0'
+        <if test="title != null and title != ''">
+            and ba.title like concat('%',#{title},'%')
+        </if>
+        <if test="categoryId != null and categoryId != ''">
+            and ba.category_id = #{categoryId}
+        </if>
+        <if test="tagId != null and tagId != ''">
+            and bat.tag_id = #{tagId}
+        </if>
+        <if test="status != null and status != ''">
+            and ba.status = #{status}
+        </if>
+        group by ba.id
+    </select>
+
+    <!--评论添加数量 +1-->
+    <update id="updateCommentCountPlus" parameterType="String">
+        update blog_article set comment_count = comment_count + 1 where id = #{articleId}
+    </update>
+
+    <!--评论添加数量 -1-->
+    <update id="updateCommentCountMinus" parameterType="String">
+        update blog_article set comment_count = comment_count - 1 where id = #{id}
+    </update>
+
+    <!--阅读数量 +1-->
+    <update id="updateViewCountPlus" parameterType="String">
+        update blog_article set view_count = view_count + 1 where id = #{id}
+    </update>
+
+    <!--点赞数量 +1-->
+    <update id="updateLikeCountPlus" parameterType="String">
+        update blog_article set like_count = like_count + 1 where id = #{objId}
+    </update>
+
+    <!--点赞数量 -1-->
+    <update id="updateLikeCountMinus" parameterType="String">
+        update blog_article set like_count = like_count - 1 where id = #{objId}
+    </update>
+</mapper>

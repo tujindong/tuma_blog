@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.blog.mapper.CommentMapper">
+
+    <select id="pageListWithArticle" resultType="org.jeecg.modules.blog.entity.BlogComment">
+        select
+            bc.*,
+            (select ba.title from blog_article ba where ba.id = bc.article_id) as articleTitle
+        from
+            blog_comment bc
+        left join blog_article ba on ba.id = bc.article_id
+        <if test="content != null and content != ''">
+            where bc.content like concat('%', #{content}, '%')
+        </if>
+        <if test="articleTitle != null and articleTitle != ''">
+            where ba.title like concat('%', #{articleTitle}, '%')
+        </if>
+    </select>
+</mapper>

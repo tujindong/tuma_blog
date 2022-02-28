@@ -1,0 +1,71 @@
+@primary-color: #2e9dd2;
+//滚动条
+::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    transition: all 0.5s;
+    height: 50px;
+    background-color: #b8b8b8;
+    outline: 2px solid #fff;
+    outline-offset: -2px;
+    border: 2px solid #fff;
+    filter: 0.5;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    height: 50px;
+    background-color: #b0b0b0;
+}
+//分页器
+.ant-list-pagination {
+    .ant-pagination {
+        li,
+        .ant-pagination-prev,
+        .ant-pagination-next {
+            border-radius: 50%;
+            .ant-pagination-item-link {
+                border-radius: 50%;
+            }
+        }
+        .ant-pagination-item-active {
+            border-color: @primary-color;
+        }
+        .ant-pagination-item:focus-visible,
+        .ant-pagination-item:hover {
+            color: @primary-color;
+            border-color: @primary-color;
+        }
+    }
+}
+//按钮
+.ant-btn-primary {
+    background: @primary-color !important;
+    border-color: @primary-color !important;
+    &:active,
+    &:focus,
+    &:hover {
+        background: @primary-color !important;
+        border-color: @primary-color !important;
+        opacity: 0.8 !important;
+    }
+}
+//弹出框
+.ant-modal-confirm {
+    .ant-modal-body {
+        padding: 18px 12px 18px;
+    }
+}
+//消息提醒框
+.ant-notification-topLeft,
+.ant-notification-bottomLeft {
+    margin-left: 16px;
+}
+.ant-notification-notice-message {
+    font-size: 14px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,481 @@
+2022-01-04 14:42:23.694 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-01-04 14:42:23.929 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication v2.4.5 on DESKTOP-EU264I8 with PID 19972 (C:\Users\Administrator\Desktop\zbtx\mayun\xiaotu_boot\tuma-parent\boot-module-system\target\boot-module-system-2.4.5.jar started by Administrator in C:\Users\Administrator\Desktop\zbtx\mayun\xiaotu_boot\tuma-parent\boot-module-system\target)
+2022-01-04 14:42:23.930 [main] INFO  org.jeecg.JeecgSystemApplication:655 - The following profiles are active: dev
+2022-01-04 14:42:24.837 [background-preinit] WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-01-04 14:42:27.810 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-04 14:42:27.812 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-04 14:42:28.004 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 179ms. Found 0 Redis repository interfaces.
+2022-01-04 14:42:28.234 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ******************* init miniDao config [ begin ] *********************** 
+2022-01-04 14:42:28.234 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:27 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*
+2022-01-04 14:42:28.235 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:28 -  ------ minidao.db-type ------------ mysql
+2022-01-04 14:42:28.237 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:39 -  ------ minidao Set Interceptor  ------- 
+2022-01-04 14:42:28.238 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:50 -  *******************  init miniDao config  [ end ] *********************** 
+2022-01-04 14:42:28.298 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2022-01-04 14:42:28.299 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2022-01-04 14:42:28.299 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2022-01-04 14:42:28.300 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2022-01-04 14:42:28.300 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2022-01-04 14:42:28.301 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2022-01-04 14:42:28.301 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2022-01-04 14:42:28.301 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2022-01-04 14:42:28.302 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2022-01-04 14:42:28.302 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2022-01-04 14:42:28.623 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:28.666 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:28.668 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f7b26ef2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:28.689 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$EnhancerBySpringCGLIB$$1d862efc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:28.761 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'basicDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.BasicDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:28.763 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jndiDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.JndiDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:28.765 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'druidDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.DruidDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:28.766 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'hikariDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.HikariDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:28.766 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.DataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:28.767 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dynamicDataSourceProvider' of type [com.baomidou.dynamic.datasource.provider.YmlDynamicDataSourceProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.303 [main] INFO  com.alibaba.druid.pool.DruidDataSource:994 - {dataSource-1,master} inited
+2022-01-04 14:42:29.304 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:132 - dynamic-datasource - load a datasource named [master] success
+2022-01-04 14:42:29.305 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2022-01-04 14:42:29.308 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dataSource' of type [com.baomidou.dynamic.datasource.DynamicRoutingDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.311 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties' of type [org.springframework.boot.autoconfigure.jdbc.JdbcProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.326 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jdbcTemplate' of type [org.springframework.jdbc.core.JdbcTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.329 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.335 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'namedParameterJdbcTemplate' of type [org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.339 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#9' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.350 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportShareDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.351 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#8' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.353 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportMapDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.357 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#7' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.358 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportLinkDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.360 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#6' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDictItemDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.364 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#5' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.366 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDictDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.368 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#4' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.372 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDbParamDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.374 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#3' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.376 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDbFieldDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.378 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#2' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.379 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDbDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.381 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.384 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDataSourceDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.386 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.390 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.403 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.407 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.582 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.686 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.688 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$ed60461a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.781 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.938 [main] INFO  org.jeecg.config.shiro.ShiroConfig:214 - ===============(1)创建缓存管理器RedisCacheManager
+2022-01-04 14:42:29.947 [main] INFO  org.jeecg.config.shiro.ShiroConfig:232 - ===============(2)创建RedisManager,连接Redis..
+2022-01-04 14:42:29.954 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:29.958 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:30.053 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:30.399 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:30.434 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'redisConfig' of type [org.jeecg.common.modules.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$ac2564a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:30.516 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$a13cdbd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:30.529 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:42:31.099 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8888 (http)
+2022-01-04 14:42:31.118 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-01-04 14:42:31.118 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-01-04 14:42:31.118 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-04 14:42:31.240 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-04 14:42:31.241 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 7204 ms
+2022-01-04 14:42:33.913 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:76 -  --- redis config init --- 
+2022-01-04 14:42:35.548 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2022-01-04 14:42:35.556 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2022-01-04 14:42:35.577 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-01-04 14:42:35.578 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2022-01-04 14:42:35.584 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2022-01-04 14:42:35.587 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2022-01-04 14:42:35.588 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'DESKTOP-EU264I81641278555556'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-01-04 14:42:35.589 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2022-01-04 14:42:35.589 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2022-01-04 14:42:35.590 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1f12e153
+2022-01-04 14:42:36.715 [main] INFO  o.j.m.jmreport.config.JimuReportConfiguration:53 -  --- Init JimuReport Config --- 
+2022-01-04 14:42:37.638 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-04 14:42:37.739 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:34 -  代码生成器数据库连接，使用application.yml的DB配置 ###################
+2022-01-04 14:42:37.917 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-01-04 14:42:37.980 [main] INFO  o.j.modules.jmreport.config.JmReportExecutorConfig:21 - ---创建线程池---
+2022-01-04 14:42:37.982 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:181 - Initializing ExecutorService
+2022-01-04 14:42:37.984 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'jmReportTaskExecutor'
+2022-01-04 14:42:39.098 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8888"]
+2022-01-04 14:42:39.111 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8888 is already in use
+2022-01-04 14:42:39.112 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'jmReportTaskExecutor'
+2022-01-04 14:42:39.114 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:845 - Shutting down Quartz Scheduler
+2022-01-04 14:42:39.114 [main] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_DESKTOP-EU264I81641278555556 shutting down.
+2022-01-04 14:42:39.114 [main] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_DESKTOP-EU264I81641278555556 paused.
+2022-01-04 14:42:39.115 [main] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_DESKTOP-EU264I81641278555556 shutdown complete.
+2022-01-04 14:42:39.136 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:217 - dynamic-datasource start closing ....
+2022-01-04 14:42:39.140 [main] INFO  com.alibaba.druid.pool.DruidDataSource:2029 - {dataSource-1} closing ...
+2022-01-04 14:42:39.149 [main] INFO  com.alibaba.druid.pool.DruidDataSource:2101 - {dataSource-1} closed
+2022-01-04 14:42:39.149 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:221 - dynamic-datasource all closed success,bye
+2022-01-04 14:42:39.152 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Pausing ProtocolHandler ["http-nio-8888"]
+2022-01-04 14:42:39.153 [main] INFO  org.apache.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-01-04 14:42:39.155 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8888"]
+2022-01-04 14:42:39.156 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Destroying ProtocolHandler ["http-nio-8888"]
+2022-01-04 14:42:39.167 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-04 14:42:39.170 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2022-01-04 14:47:00.471 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-01-04 14:47:00.710 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication v2.4.5 on DESKTOP-EU264I8 with PID 12768 (C:\Users\Administrator\Desktop\zbtx\mayun\xiaotu_boot\tuma-parent\boot-module-system\target\boot-module-system-2.4.5.jar started by Administrator in C:\Users\Administrator\Desktop\zbtx\mayun\xiaotu_boot\tuma-parent\boot-module-system\target)
+2022-01-04 14:47:00.710 [main] INFO  org.jeecg.JeecgSystemApplication:655 - The following profiles are active: dev
+2022-01-04 14:47:01.591 [background-preinit] WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-01-04 14:47:04.446 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-04 14:47:04.448 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-04 14:47:04.576 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 116ms. Found 0 Redis repository interfaces.
+2022-01-04 14:47:04.877 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ******************* init miniDao config [ begin ] *********************** 
+2022-01-04 14:47:04.878 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:27 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*
+2022-01-04 14:47:04.879 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:28 -  ------ minidao.db-type ------------ mysql
+2022-01-04 14:47:04.884 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:39 -  ------ minidao Set Interceptor  ------- 
+2022-01-04 14:47:04.885 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:50 -  *******************  init miniDao config  [ end ] *********************** 
+2022-01-04 14:47:04.947 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2022-01-04 14:47:04.948 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2022-01-04 14:47:04.949 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2022-01-04 14:47:04.952 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2022-01-04 14:47:04.952 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2022-01-04 14:47:04.953 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2022-01-04 14:47:04.953 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2022-01-04 14:47:04.953 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2022-01-04 14:47:04.954 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2022-01-04 14:47:04.954 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2022-01-04 14:47:05.242 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.285 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.287 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f7b26ef2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.308 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$EnhancerBySpringCGLIB$$1d862efc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.376 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'basicDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.BasicDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.378 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jndiDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.JndiDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.381 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'druidDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.DruidDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.382 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'hikariDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.HikariDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.383 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.DataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.384 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dynamicDataSourceProvider' of type [com.baomidou.dynamic.datasource.provider.YmlDynamicDataSourceProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.855 [main] INFO  com.alibaba.druid.pool.DruidDataSource:994 - {dataSource-1,master} inited
+2022-01-04 14:47:05.856 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:132 - dynamic-datasource - load a datasource named [master] success
+2022-01-04 14:47:05.857 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2022-01-04 14:47:05.860 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dataSource' of type [com.baomidou.dynamic.datasource.DynamicRoutingDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.862 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties' of type [org.springframework.boot.autoconfigure.jdbc.JdbcProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.877 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jdbcTemplate' of type [org.springframework.jdbc.core.JdbcTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.880 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.884 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'namedParameterJdbcTemplate' of type [org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.888 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#9' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.899 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportShareDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.901 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#8' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.903 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportMapDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.905 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#7' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.908 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportLinkDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.909 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#6' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.911 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDictItemDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.913 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#5' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.917 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDictDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.918 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#4' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.920 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDbParamDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.922 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#3' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.923 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDbFieldDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.925 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#2' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.926 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDbDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.928 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.932 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDataSourceDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.935 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.936 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.947 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:05.951 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:06.114 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:06.213 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:06.215 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$ed60461a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:06.307 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:06.452 [main] INFO  org.jeecg.config.shiro.ShiroConfig:214 - ===============(1)创建缓存管理器RedisCacheManager
+2022-01-04 14:47:06.461 [main] INFO  org.jeecg.config.shiro.ShiroConfig:232 - ===============(2)创建RedisManager,连接Redis..
+2022-01-04 14:47:06.467 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:06.470 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:06.564 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:06.916 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:06.942 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'redisConfig' of type [org.jeecg.common.modules.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$ac2564a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:07.023 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$a13cdbd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:07.033 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 14:47:07.616 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8888 (http)
+2022-01-04 14:47:07.630 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-01-04 14:47:07.631 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-01-04 14:47:07.632 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-04 14:47:07.744 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-04 14:47:07.745 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 6929 ms
+2022-01-04 14:47:10.334 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:76 -  --- redis config init --- 
+2022-01-04 14:47:11.736 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2022-01-04 14:47:11.744 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2022-01-04 14:47:11.763 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-01-04 14:47:11.764 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2022-01-04 14:47:11.768 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2022-01-04 14:47:11.770 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2022-01-04 14:47:11.772 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'DESKTOP-EU264I81641278831744'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-01-04 14:47:11.772 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2022-01-04 14:47:11.775 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2022-01-04 14:47:11.775 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@267bbe1a
+2022-01-04 14:47:12.840 [main] INFO  o.j.m.jmreport.config.JimuReportConfiguration:53 -  --- Init JimuReport Config --- 
+2022-01-04 14:47:13.708 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-04 14:47:13.823 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:34 -  代码生成器数据库连接，使用application.yml的DB配置 ###################
+2022-01-04 14:47:14.009 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-01-04 14:47:14.066 [main] INFO  o.j.modules.jmreport.config.JmReportExecutorConfig:21 - ---创建线程池---
+2022-01-04 14:47:14.068 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:181 - Initializing ExecutorService
+2022-01-04 14:47:14.070 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'jmReportTaskExecutor'
+2022-01-04 14:47:15.200 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8888"]
+2022-01-04 14:47:15.257 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-01-04 14:47:15.258 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2022-01-04 14:47:15.261 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2022-01-04 14:47:15.448 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:44 - Scanning for api listing references
+2022-01-04 14:47:15.721 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: pageListUsingGET_1
+2022-01-04 14:47:15.723 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_1
+2022-01-04 14:47:15.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_1
+2022-01-04 14:47:15.759 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_2
+2022-01-04 14:47:15.765 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_2
+2022-01-04 14:47:15.768 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_1
+2022-01-04 14:47:15.772 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_1
+2022-01-04 14:47:15.774 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_1
+2022-01-04 14:47:15.787 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_3
+2022-01-04 14:47:15.790 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_3
+2022-01-04 14:47:15.791 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_2
+2022-01-04 14:47:15.792 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_2
+2022-01-04 14:47:15.794 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_2
+2022-01-04 14:47:15.800 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_1
+2022-01-04 14:47:15.805 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_4
+2022-01-04 14:47:15.806 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_4
+2022-01-04 14:47:15.807 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_3
+2022-01-04 14:47:15.809 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_3
+2022-01-04 14:47:15.812 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_3
+2022-01-04 14:47:15.818 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_2
+2022-01-04 14:47:15.822 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_5
+2022-01-04 14:47:15.823 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_5
+2022-01-04 14:47:15.824 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_4
+2022-01-04 14:47:15.826 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_4
+2022-01-04 14:47:15.829 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_4
+2022-01-04 14:47:15.833 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_3
+2022-01-04 14:47:15.840 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_6
+2022-01-04 14:47:15.841 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_6
+2022-01-04 14:47:15.843 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_5
+2022-01-04 14:47:15.845 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_5
+2022-01-04 14:47:15.846 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_5
+2022-01-04 14:47:15.849 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_4
+2022-01-04 14:47:15.859 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_5
+2022-01-04 14:47:15.860 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_7
+2022-01-04 14:47:15.864 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_7
+2022-01-04 14:47:15.865 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_6
+2022-01-04 14:47:15.867 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_6
+2022-01-04 14:47:15.870 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_6
+2022-01-04 14:47:15.877 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: pageListUsingGET_2
+2022-01-04 14:47:15.878 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_8
+2022-01-04 14:47:15.881 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_8
+2022-01-04 14:47:15.883 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_7
+2022-01-04 14:47:16.205 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:727 - Starting Quartz Scheduler now
+2022-01-04 14:47:16.579 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2022-01-04 14:47:16.579 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "DESKTOP-EU264I81641278091147"'s failed in-progress jobs.
+2022-01-04 14:47:16.586 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_DESKTOP-EU264I81641278831744 started.
+2022-01-04 14:47:16.605 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 17.396 seconds (JVM running for 18.208)
+2022-01-04 14:47:16.611 [main] INFO  org.jeecg.JeecgSystemApplication:33 - 
+----------------------------------------------------------
+	Application Xiaotu-Boot is running! Access URLs:
+	Local: 		http://localhost:8888/
+	External: 	http://192.168.1.4:8888/
+	Swagger文档: 	http://192.168.1.4:8888/doc.html
+----------------------------------------------------------
+2022-01-04 14:57:32.016 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_DESKTOP-EU264I81641278831744 paused.
+2022-01-04 14:57:32.116 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'jmReportTaskExecutor'
+2022-01-04 14:57:32.118 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:845 - Shutting down Quartz Scheduler
+2022-01-04 14:57:32.119 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_DESKTOP-EU264I81641278831744 shutting down.
+2022-01-04 14:57:32.119 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_DESKTOP-EU264I81641278831744 paused.
+2022-01-04 14:57:32.119 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_DESKTOP-EU264I81641278831744 shutdown complete.
+2022-01-04 14:57:32.333 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:217 - dynamic-datasource start closing ....
+2022-01-04 14:57:32.339 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2029 - {dataSource-1} closing ...
+2022-01-04 14:57:32.350 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2101 - {dataSource-1} closed
+2022-01-04 14:57:32.351 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:221 - dynamic-datasource all closed success,bye
+2022-01-04 15:13:20.852 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-01-04 15:13:21.088 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication v2.4.5 on DESKTOP-EU264I8 with PID 23132 (C:\Users\Administrator\Desktop\zbtx\mayun\xiaotu_boot\tuma-parent\boot-module-system\target\boot-module-system-2.4.5.jar started by Administrator in C:\Users\Administrator\Desktop\zbtx\mayun\xiaotu_boot\tuma-parent\boot-module-system\target)
+2022-01-04 15:13:21.089 [main] INFO  org.jeecg.JeecgSystemApplication:655 - The following profiles are active: dev
+2022-01-04 15:13:21.977 [background-preinit] WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-01-04 15:13:24.849 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-04 15:13:24.852 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-04 15:13:24.992 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 128ms. Found 0 Redis repository interfaces.
+2022-01-04 15:13:25.292 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ******************* init miniDao config [ begin ] *********************** 
+2022-01-04 15:13:25.293 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:27 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*
+2022-01-04 15:13:25.293 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:28 -  ------ minidao.db-type ------------ mysql
+2022-01-04 15:13:25.295 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:39 -  ------ minidao Set Interceptor  ------- 
+2022-01-04 15:13:25.295 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:50 -  *******************  init miniDao config  [ end ] *********************** 
+2022-01-04 15:13:25.355 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2022-01-04 15:13:25.356 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2022-01-04 15:13:25.357 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2022-01-04 15:13:25.357 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2022-01-04 15:13:25.357 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2022-01-04 15:13:25.358 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2022-01-04 15:13:25.358 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2022-01-04 15:13:25.359 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2022-01-04 15:13:25.359 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2022-01-04 15:13:25.359 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:48 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2022-01-04 15:13:25.669 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:25.713 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:25.715 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f7b26ef2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:25.738 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$EnhancerBySpringCGLIB$$1d862efc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:25.806 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'basicDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.BasicDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:25.810 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jndiDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.JndiDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:25.812 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'druidDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.DruidDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:25.813 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'hikariDataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.HikariDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:25.814 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dataSourceCreator' of type [com.baomidou.dynamic.datasource.creator.DataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:25.815 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dynamicDataSourceProvider' of type [com.baomidou.dynamic.datasource.provider.YmlDynamicDataSourceProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.286 [main] INFO  com.alibaba.druid.pool.DruidDataSource:994 - {dataSource-1,master} inited
+2022-01-04 15:13:26.288 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:132 - dynamic-datasource - load a datasource named [master] success
+2022-01-04 15:13:26.288 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2022-01-04 15:13:26.289 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dataSource' of type [com.baomidou.dynamic.datasource.DynamicRoutingDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.294 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties' of type [org.springframework.boot.autoconfigure.jdbc.JdbcProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.309 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jdbcTemplate' of type [org.springframework.jdbc.core.JdbcTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.312 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.316 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'namedParameterJdbcTemplate' of type [org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.320 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#9' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.330 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportShareDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.332 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#8' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.334 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportMapDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.339 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#7' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.340 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportLinkDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.342 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#6' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.343 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDictItemDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.344 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#5' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.349 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDictDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.353 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#4' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.354 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDbParamDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.356 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#3' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.357 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDbFieldDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.358 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#2' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.360 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDbDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1#1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.367 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDataSourceDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.370 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean '(inner bean)#42bc14c1' of type [org.jeecgframework.minidao.aop.MiniDaoHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.372 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'jimuReportDao' of type [org.jeecgframework.minidao.factory.MiniDaoBeanFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.384 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.389 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.558 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.658 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.661 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$ed60461a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.755 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.902 [main] INFO  org.jeecg.config.shiro.ShiroConfig:214 - ===============(1)创建缓存管理器RedisCacheManager
+2022-01-04 15:13:26.911 [main] INFO  org.jeecg.config.shiro.ShiroConfig:232 - ===============(2)创建RedisManager,连接Redis..
+2022-01-04 15:13:26.917 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:26.921 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:27.014 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:27.364 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:27.394 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'redisConfig' of type [org.jeecg.common.modules.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$ac2564a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:27.475 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$a13cdbd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:27.486 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-04 15:13:28.023 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8888 (http)
+2022-01-04 15:13:28.037 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-01-04 15:13:28.037 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-01-04 15:13:28.038 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-04 15:13:28.154 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-04 15:13:28.155 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 6960 ms
+2022-01-04 15:13:30.888 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:76 -  --- redis config init --- 
+2022-01-04 15:13:32.414 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2022-01-04 15:13:32.423 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2022-01-04 15:13:32.444 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-01-04 15:13:32.444 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2022-01-04 15:13:32.448 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2022-01-04 15:13:32.450 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2022-01-04 15:13:32.451 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'DESKTOP-EU264I81641280412422'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-01-04 15:13:32.452 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2022-01-04 15:13:32.454 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2022-01-04 15:13:32.454 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@389562d6
+2022-01-04 15:13:33.525 [main] INFO  o.j.m.jmreport.config.JimuReportConfiguration:53 -  --- Init JimuReport Config --- 
+2022-01-04 15:13:34.461 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-04 15:13:34.593 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:34 -  代码生成器数据库连接，使用application.yml的DB配置 ###################
+2022-01-04 15:13:34.783 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-01-04 15:13:34.843 [main] INFO  o.j.modules.jmreport.config.JmReportExecutorConfig:21 - ---创建线程池---
+2022-01-04 15:13:34.846 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:181 - Initializing ExecutorService
+2022-01-04 15:13:34.848 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'jmReportTaskExecutor'
+2022-01-04 15:13:36.099 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8888"]
+2022-01-04 15:13:36.157 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-01-04 15:13:36.158 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2022-01-04 15:13:36.161 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2022-01-04 15:13:36.334 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:44 - Scanning for api listing references
+2022-01-04 15:13:36.573 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: pageListUsingGET_1
+2022-01-04 15:13:36.575 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_1
+2022-01-04 15:13:36.579 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_1
+2022-01-04 15:13:36.603 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_2
+2022-01-04 15:13:36.607 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_2
+2022-01-04 15:13:36.609 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_1
+2022-01-04 15:13:36.612 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_1
+2022-01-04 15:13:36.614 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_1
+2022-01-04 15:13:36.624 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_3
+2022-01-04 15:13:36.626 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_3
+2022-01-04 15:13:36.629 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_2
+2022-01-04 15:13:36.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_2
+2022-01-04 15:13:36.633 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_2
+2022-01-04 15:13:36.639 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_1
+2022-01-04 15:13:36.643 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_4
+2022-01-04 15:13:36.646 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_4
+2022-01-04 15:13:36.648 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_3
+2022-01-04 15:13:36.651 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_3
+2022-01-04 15:13:36.653 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_3
+2022-01-04 15:13:36.658 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_2
+2022-01-04 15:13:36.666 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_5
+2022-01-04 15:13:36.668 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_5
+2022-01-04 15:13:36.671 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_4
+2022-01-04 15:13:36.673 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_4
+2022-01-04 15:13:36.675 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_4
+2022-01-04 15:13:36.680 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_3
+2022-01-04 15:13:36.689 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_6
+2022-01-04 15:13:36.690 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_6
+2022-01-04 15:13:36.692 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_5
+2022-01-04 15:13:36.694 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_5
+2022-01-04 15:13:36.696 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_5
+2022-01-04 15:13:36.701 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_4
+2022-01-04 15:13:36.713 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryPageListUsingGET_5
+2022-01-04 15:13:36.715 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_7
+2022-01-04 15:13:36.719 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_7
+2022-01-04 15:13:36.721 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteBatchUsingDELETE_6
+2022-01-04 15:13:36.723 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_6
+2022-01-04 15:13:36.725 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: queryByIdUsingGET_6
+2022-01-04 15:13:36.737 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: pageListUsingGET_2
+2022-01-04 15:13:36.738 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingDELETE_8
+2022-01-04 15:13:36.741 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_8
+2022-01-04 15:13:36.749 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:41 - Generating unique operation named: editUsingPUT_7
+2022-01-04 15:13:37.074 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:727 - Starting Quartz Scheduler now
+2022-01-04 15:13:37.465 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2022-01-04 15:13:37.465 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "DESKTOP-EU264I81641278831744"'s failed in-progress jobs.
+2022-01-04 15:13:37.470 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_DESKTOP-EU264I81641280412422 started.
+2022-01-04 15:13:37.491 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 17.92 seconds (JVM running for 18.735)
+2022-01-04 15:13:37.500 [main] INFO  org.jeecg.JeecgSystemApplication:33 - 
+----------------------------------------------------------
+	Application Xiaotu-Boot is running! Access URLs:
+	Local: 		http://localhost:8888/
+	External: 	http://192.168.1.4:8888/
+	Swagger文档: 	http://192.168.1.4:8888/doc.html
+----------------------------------------------------------
+2022-01-04 15:13:52.277 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-04 15:13:52.278 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-04 15:13:52.286 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 8 ms
