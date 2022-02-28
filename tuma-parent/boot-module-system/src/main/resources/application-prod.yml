@@ -131,10 +131,10 @@ spring:
         connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
       datasource:
         master:
-          url: jdbc:mysql://120.76.216.29:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-          username: root
-          password: Love0404
-          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: ''
+          username: ''
+          password: ''
+          driver-class-name: ''
           # 多数据源配置
           #multi-datasource1:
           #url: jdbc:mysql://localhost:3306/jeecg-boot2?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
@@ -144,7 +144,7 @@ spring:
   #redis 配置
   redis:
     database: 0
-    host: 120.76.216.29
+    host: ''
     lettuce:
       pool:
         max-active: 8   #最大连接数据库连接数,设 -1 为没有限制
@@ -153,7 +153,7 @@ spring:
         min-idle: 0     #最小等待连接中的数量,设 0 为没有限制
       shutdown-timeout: 100ms
     password: ''
-    port: 3389
+    port: ''
 #mybatis plus 设置
 mybatis-plus:
   mapper-locations: classpath*:org/jeecg/modules/**/xml/*Mapper.xml
@@ -187,11 +187,11 @@ jeecg :
      excludeUrls: /test/jeecgDemo/demo3,/test/jeecgDemo/redisDemo/**,/category/**,/visual/**,/map/**,/jmreport/bigscreen2/**,/api/getUserInfo
   #阿里云oss存储和大鱼短信秘钥配置
   oss:
-    accessKey: LTAI5tJzWv6fkWC4uzJmjSrc
-    secretKey: pHgY5EgyC97jfjX1AjpjmzyCY7B3JL
-    endpoint: oss-cn-shanghai.aliyuncs.com
-    bucketName: tujindong
-    staticDomain: oss-cn-shanghai.aliyuncs.com
+    accessKey: ''
+    secretKey: ''
+    endpoint: ''
+    bucketName: 'tujindong'
+    staticDomain: 'oss-cn-shanghai.aliyuncs.com'
   # ElasticSearch 设置
   elasticsearch:
     cluster-name: jeecg-ES
