@@ -12,9 +12,9 @@
 
 项目目录下主要分为三个部分分别对应：
 
->tuma-parent：项目后端；
->tuma-vue-manage：项目前端后台管理系统；
->tuma-vue-web：项目前端博客界面；
+> - tuma-parent：项目后端；
+> - tuma-vue-manage：项目前端后台管理系统；
+> - tuma-vue-web：项目前端博客界面；
 
 ## 前端项目
 
