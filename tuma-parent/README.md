@@ -1,4 +1,4 @@
-Jeecg-Boot 低代码开发平台
+jeecgboot开发平台
 ===============
 
 当前最新版本： 2.4.5（发布日期：20210607）
@@ -42,8 +42,6 @@ Jeecg-Boot 低代码开发平台
 - 在线文档：  [http://doc.jeecg.com](http://doc.jeecg.com)
 
 - 常见问题：  [http://jeecg.com/doc/qa](http://jeecg.com/doc/qa)
-
-- QQ交流群 ：  ③816531124、①284271917、②769925425
 
 
 ## 专项文档
