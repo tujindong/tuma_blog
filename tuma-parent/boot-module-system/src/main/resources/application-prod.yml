@@ -190,8 +190,8 @@ jeecg :
     accessKey: ''
     secretKey: ''
     endpoint: ''
-    bucketName: 'tujindong'
-    staticDomain: 'oss-cn-shanghai.aliyuncs.com'
+    bucketName: ''
+    staticDomain: ''
   # ElasticSearch 设置
   elasticsearch:
     cluster-name: jeecg-ES
